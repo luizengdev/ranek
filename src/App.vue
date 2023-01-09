@@ -67,6 +67,7 @@ img {
   transition: all 0.3s;
   border: none;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+  cursor: pointer;
 }
 
 .btn:hover {
