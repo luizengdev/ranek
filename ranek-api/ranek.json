@@ -21,6 +21,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "DObLak-",
+      "nome": "ENZZO MATHEUS DE OLIVEIRA LIMA",
+      "email": "enzzo@gmail.com",
+      "senha": "123",
+      "cep": "58057-533",
+      "rua": "Rua Isabel Roberto de Castro",
+      "numero": "30",
+      "bairro": "Mangabeira",
+      "cidade": "João Pessoa",
+      "estado": "PB"
     }
   ],
   "produto": [
