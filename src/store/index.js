@@ -5,6 +5,7 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
+  strict: true,
   state: {
     login: false,
     usuario: {
@@ -25,7 +26,7 @@ export default new Vuex.Store({
       state.login = payload;
     },
     UPDATE_USUARIO(state, payload) {
-      state.usuario = payload;
+      state.usuario = Object.assign(state.usuario, payload);
     },
   },
   actions: {
