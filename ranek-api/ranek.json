@@ -40,8 +40,8 @@
       "email": "vitoria@ranek.com",
       "senha": "123",
       "cep": "58057-533",
-      "rua": "Rua Isabel Roberto de Castro",
-      "numero": "30",
+      "rua": "Rua Isabel",
+      "numero": "50",
       "bairro": "Mangabeira",
       "cidade": "João Pessoa",
       "estado": "PB"
@@ -67,18 +67,9 @@
       "fotos": null
     },
     {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
       "id": "notebook",
       "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "vitoria@ranek.com",
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
@@ -195,7 +186,7 @@
     {
       "id": "smartphone",
       "nome": "Smartphone 2",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "vitoria@ranek.com",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
@@ -213,7 +204,7 @@
     {
       "id": "tablet",
       "nome": "Tablet 3",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "vitoria@ranek.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",

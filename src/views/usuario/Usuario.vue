@@ -39,8 +39,8 @@ export default {
 };
 </script>
 
-<style>
-.usuario scoped {
+<style scoped>
+.usuario {
   display: grid;
   grid-template-columns: minmax(140px, 200px) 1fr;
   max-width: 900px;
