@@ -1,4 +1,28 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "vitoria@ranek.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "58057-533",
+        "rua": "Rua Isabel",
+        "numero": "50",
+        "bairro": "Mangabeira",
+        "cidade": "João Pessoa",
+        "estado": "PB"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
@@ -45,6 +69,18 @@
       "bairro": "Mangabeira",
       "cidade": "João Pessoa",
       "estado": "PB"
+    },
+    {
+      "id": "-TwaXuf",
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "cep": "",
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
     }
   ],
   "produto": [
