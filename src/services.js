@@ -11,6 +11,12 @@ export const api = {
   post(url, body) {
     return axiosInstance.post(url, body);
   },
+  delete(url) {
+    return axiosInstance.delete(url);
+  },
+  put(url, body) {
+    return axiosInstance.put(url, body);
+  },
 };
 
 export function getCep(cep) {
