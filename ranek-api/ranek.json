@@ -13,7 +13,7 @@
     },
     {
       "id": "luizengdev@gmail.com",
-      "email": "andre@origamid.com",
+      "email": "luiz@origamid.com",
       "nome": "Luiz Almeida",
       "senha": "123",
       "rua": "Rua Ali Perto",
@@ -26,6 +26,18 @@
       "id": "DObLak-",
       "nome": "ENZZO MATHEUS DE OLIVEIRA LIMA",
       "email": "enzzo@gmail.com",
+      "senha": "123",
+      "cep": "58057-533",
+      "rua": "Rua Isabel Roberto de Castro",
+      "numero": "30",
+      "bairro": "Mangabeira",
+      "cidade": "João Pessoa",
+      "estado": "PB"
+    },
+    {
+      "id": "vitoria@ranek.com",
+      "nome": "Vitória Luiza Carneiro da Silva Alves",
+      "email": "vitoria@ranek.com",
       "senha": "123",
       "cep": "58057-533",
       "rua": "Rua Isabel Roberto de Castro",
