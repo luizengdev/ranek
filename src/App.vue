@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <TheHeader />
-    <main>
+    <main id="main">
       <transition mode="out-in">
         <router-view />
       </transition>
@@ -33,8 +33,8 @@ li,
 h1,
 h2,
 p {
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
 }
 
 ul {
@@ -83,7 +83,7 @@ img {
   flex-direction: column;
 }
 
-main {
+#main {
   flex: 1;
 }
 
