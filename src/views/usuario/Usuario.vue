@@ -21,7 +21,7 @@
         </li>
       </ul>
     </nav>
-    <transition node="out-in">
+    <transition mode="out-in">
       <router-view></router-view>
     </transition>
   </section>
