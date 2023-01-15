@@ -119,6 +119,7 @@ textarea {
   font-size: 1rem;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 input:hover,

@@ -94,4 +94,18 @@ export default {
   margin-top: 40px;
   width: 200px;
 }
+
+@media screen and (max-width: 500px) {
+  .produto {
+    grid-template-columns: 1fr;
+  }
+
+  .fotos {
+    grid-row: 2;
+  }
+
+  .info {
+    position: initial;
+  }
+}
 </style>
