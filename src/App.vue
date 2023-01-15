@@ -90,6 +90,11 @@ img {
   transform: scale(1.1);
 }
 
+.btn-disabled {
+  background: #bbc;
+  transform: scale(1.1);
+}
+
 #app {
   display: flex;
   min-height: 100vh;
