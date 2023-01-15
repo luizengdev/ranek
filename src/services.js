@@ -1,21 +1,42 @@
 import axios from "axios";
 
+const url = "https://ranekapi.origamid.dev/json";
+
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: url + "/api",
 });
 
+axiosInstance.interceptors.request.use(
+  function (config) {
+    const token = window.localStorage.token;
+    if (token) {
+      config.headers.Authorization = token;
+    }
+    return config;
+  },
+  function (error) {
+    return Promise.reject(error);
+  }
+);
+
 export const api = {
-  get(url) {
-    return axiosInstance.get(url);
+  get(endpoint) {
+    return axiosInstance.get(endpoint);
   },
-  post(url, body) {
-    return axiosInstance.post(url, body);
+  post(endpoint, body) {
+    return axiosInstance.post(endpoint, body);
   },
-  delete(url) {
-    return axiosInstance.delete(url);
+  put(endpoint, body) {
+    return axiosInstance.put(endpoint, body);
   },
-  put(url, body) {
-    return axiosInstance.put(url, body);
+  delete(endpoint) {
+    return axiosInstance.delete(endpoint);
+  },
+  login(body) {
+    return axios.post(url + "/jwt-auth/v1/token", body);
+  },
+  validateToken() {
+    return axiosInstance.post(url + "/jwt-auth/v1/token/validate");
   },
 };
 

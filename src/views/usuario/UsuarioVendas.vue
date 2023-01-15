@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     getVendas() {
-      api.get(`/transacao?vendedor_id=${this.usuario.id}`).then((r) => {
+      api.get(`/transacao?tipo=vendedor_id`).then((r) => {
         this.vendas = r.data;
       });
     },
