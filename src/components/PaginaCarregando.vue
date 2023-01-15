@@ -26,7 +26,7 @@ export default {
   border-radius: 10px;
   background: #87f;
   margin: 4px;
-  animation: dots 0.6s cubic-bezier(0.6, 0.1, 0, 44) infinite alternate;
+  animation: dots 0.6s cubic-bezier(0.6, 0.1, 1, 0.4) infinite alternate;
 }
 
 .loading span:nth-child(1) {

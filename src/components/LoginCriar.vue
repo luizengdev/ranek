@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Crie a sua Conta</h2>
+    <h2>Crie a Sua Conta</h2>
     <transition mode="out-in">
       <button v-if="!criar" class="btn" @click="criar = true">
         Criar Conta
@@ -31,10 +31,8 @@ export default {
     async criarUsuario() {
       try {
         await this.$store.dispatch("criarUsuario", this.$store.state.usuario);
-        await this.$store.dispatch(
-          "getUsuario",
-          this.$store.state.usuario.email
-        );
+        await this.$store.dispatch("logarUsuario", this.$store.state.usuario);
+        await this.$store.dispatch("getUsuario");
         this.$router.push({ name: "usuario" });
       } catch (error) {
         console.log(error);
@@ -47,7 +45,7 @@ export default {
 <style scoped>
 h2 {
   text-align: center;
-  margin-top: 48px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
