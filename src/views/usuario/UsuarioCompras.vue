@@ -1,16 +1,20 @@
 <template>
   <section>
-    <div v-if="compras"></div>
-    <h2>Comprar</h2>
-    <div
-      class="produto-wrapper"
-      v-for="(compra, index) in compras"
-      :key="index"
-    >
-      <ProdutoItem v-if="compra.produto" :produto="compra.produto">
-        <p class="vendedor"><span>Vendedor:</span> {{ compra.vendedor_id }}</p>
-      </ProdutoItem>
+    <div v-if="compras">
+      <h2>Comprar</h2>
+      <div
+        class="produto-wrapper"
+        v-for="(compra, index) in compras"
+        :key="index"
+      >
+        <ProdutoItem v-if="compra.produto" :produto="compra.produto">
+          <p class="vendedor">
+            <span>Vendedor:</span> {{ compra.vendedor_id }}
+          </p>
+        </ProdutoItem>
+      </div>
     </div>
+    <PaginaCarregando v-else />
   </section>
 </template>
 
