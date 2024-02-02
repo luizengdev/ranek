@@ -4,7 +4,7 @@
 
 ## Projeto
 
-Sistema web para compra e venda de produtos. Projeto dinal desenvolvido no curso da [Origamid](https://www.origamid.com/).
+Sistema web para compra e venda de produtos. Projeto final desenvolvido no curso da [Origamid](https://www.origamid.com/).
 
 ### Conceitos abordados
 
